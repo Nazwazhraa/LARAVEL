@@ -1,12 +1,9 @@
 <?php
 
-
 namespace App\Http\Controllers;
-
+use App\Http\Requests;
+use Illuminate\Http\Request;
 class MyController extends Controller
 {
-public function showAbout()
-{
-return view('about');
-}
+public function store(Request $request) {}
 }

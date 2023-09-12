@@ -142,6 +142,9 @@ return [
          */
 
             Collective\Html\HtmlServiceProvider::class,
+            Yajra\Datatables\DatatablesServiceProvider::class,
+            Laratrust\LaratrustServiceProvider::class,
+
             
         Illuminate\Auth\AuthServiceProvider::class,
         Illuminate\Broadcasting\BroadcastServiceProvider::class,
@@ -198,6 +201,7 @@ return [
 
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
+        'Laratrust' => Laratrust\LaratrustFacade::class,
 
 
         'App' => Illuminate\Support\Facades\App::class,

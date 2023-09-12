@@ -26,3 +26,9 @@ Route::get('/testmodel', function() {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+
+Route::group(['prefix'=>'admin', 'middleware'=>['auth']], function () {
+    Route::resource('authors', 'AuthorsController');
+
+    });
+Route::get('/coba', 'HomeController@coba')->middleware('coba');
