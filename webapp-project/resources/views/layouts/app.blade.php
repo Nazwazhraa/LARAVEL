@@ -18,7 +18,8 @@
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <!-- <script src="/js/jquery.dataTables.min.js"></script>
     <script src="/js/dataTables.bootstrap.min.js"></script> -->
-@yield('scripts')
+    
+@yield('styles')
 
     <!-- Scripts -->
     <script>
@@ -45,7 +46,7 @@
 
                     <!-- Branding Image -->
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        {{ config('app.name', 'Laravel') }}
+                        Larapus
                     </a>
                 </div>
 

@@ -4,9 +4,9 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-$author = App\Author::find(1);
-$author->update(['name'=>'Nazwa Az Zahra']);
-App\Author::create(['name'=>'Nazwa Az Zahra']);
+// $author = App\Author::find(1);
+// $author->update(['name'=>'Nazwa Az Zahra']);
+// App\Author::create(['name'=>'Nazwa Az Zahra']);
 
 
 class Author extends Model
